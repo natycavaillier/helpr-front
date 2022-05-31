@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HotToastModule } from '@ngneat/hot-toast';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
