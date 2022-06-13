@@ -4,8 +4,8 @@ export interface Pessoa {
   cpf: string;
   email: string;
   senha: string;
-  perfis: Perfil[];
-  dataCriacao: Date;
+  perfis: Perfil[] | string[];
+  dataCriacao: string;
 }
 
 export interface Cliente extends Pessoa {}
