@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClienteDeleteComponent } from './cliente-delete.component';
+import { StatusChipComponent } from './status-chip.component';
 
-describe('ClienteDeleteComponent', () => {
-  let component: ClienteDeleteComponent;
-  let fixture: ComponentFixture<ClienteDeleteComponent>;
+describe('StatusChipComponent', () => {
+  let component: StatusChipComponent;
+  let fixture: ComponentFixture<StatusChipComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ClienteDeleteComponent ]
+      declarations: [ StatusChipComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ClienteDeleteComponent);
+    fixture = TestBed.createComponent(StatusChipComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TecnicoDeleteComponent } from './tecnico-delete.component';
+import { PrioridadeChipComponent } from './prioridade-chip.component';
 
-describe('TecnicoDeleteComponent', () => {
-  let component: TecnicoDeleteComponent;
-  let fixture: ComponentFixture<TecnicoDeleteComponent>;
+describe('PrioridadeChipComponent', () => {
+  let component: PrioridadeChipComponent;
+  let fixture: ComponentFixture<PrioridadeChipComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TecnicoDeleteComponent ]
+      declarations: [ PrioridadeChipComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TecnicoDeleteComponent);
+    fixture = TestBed.createComponent(PrioridadeChipComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

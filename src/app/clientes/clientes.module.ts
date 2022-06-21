@@ -6,7 +6,7 @@ import { ClientesComponent } from './clientes.component';
 import { MaterialModule } from '../shared/material.module';
 import { ClienteUpdateComponent } from './components/cliente-update/cliente-update.component';
 import { ClienteCreateComponent } from './components/cliente-create/cliente-create.component';
-import { ClienteDeleteComponent } from './components/cliente-delete/cliente-delete.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,12 +14,12 @@ import { ClienteDeleteComponent } from './components/cliente-delete/cliente-dele
     ClientesComponent,
     ClienteUpdateComponent,
     ClienteCreateComponent,
-    ClienteDeleteComponent
   ],
   imports: [
     CommonModule,
     ClientesRoutingModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ]
 })
 export class ClientesModule { }

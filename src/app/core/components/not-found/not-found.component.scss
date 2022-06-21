@@ -1,0 +1,30 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+
+  img {
+    width: 50%;
+  }
+}
+
+.not-found {
+  color: #673ab7;
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 32px;
+  animation: not-found-animation 3s infinite;
+}
+
+@keyframes not-found-animation {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg) rotateX(25deg);
+  }
+}
