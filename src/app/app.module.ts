@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
 import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
+import { interceptors } from './core/interceptors/auth/auth.interceptor';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,14 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule, 
     HotToastModule.forRoot(),
     CoreModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    interceptors
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
