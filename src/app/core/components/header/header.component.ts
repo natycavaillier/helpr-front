@@ -28,12 +28,16 @@ export class HeaderComponent {
     private breakpointObserver: BreakpointObserver,
     private authService: AuthService,
     private router: Router
-    ) {}
+  ) { }
 
-    logout(){
-      this.authService.onLogout();
-      this.router.navigate(['/auth']);
-    }
+  get emailUser() {
+    return this.authService.emailUser;
+  }
+
+  logout() {
+    this.authService.onLogout();
+    this.router.navigate(['/auth']);
+  }
 
   itensMenu: MenuItem[] = [
     {
