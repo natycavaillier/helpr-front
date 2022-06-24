@@ -5,14 +5,20 @@ export function trueIndexes(array: boolean[]): number[] {
 }
 
 export function profileChecked(array: string[]): boolean[] {
-  const perfis = [false, false, true];
+  /*const perfis = [false, false, false];
   const labels = ['ADMIN', 'CLIENTE', 'TECNICO'];
 
   perfis.forEach((_, i) => {
     perfis[i] = array.includes(labels[i]);
   });
 
-  return perfis;
+  return perfis;*/
+
+  return [
+    array.includes('ADMIN'),
+    array.includes('CLIENTE'),
+    array.includes('TECNICO')
+  ]
 }
 
 // 0 = ADMIN, 1 = CLIENTE, 2 = TECNICO ===> [false, false, false]
