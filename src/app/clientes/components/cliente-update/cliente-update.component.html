@@ -2,9 +2,9 @@
     <form [formGroup]="clienteForm" (ngSubmit)="onSubmit()">
         <h2>Editar cliente</h2>
         <section formArrayName="perfils" class="section">
-            <mat-checkbox class="margin" color="primary" formControlName="0">Admin</mat-checkbox>
-            <mat-checkbox class="margin" color="primary" formControlName="1">Cliente</mat-checkbox>
-            <mat-checkbox class="margin" color="primary" formControlName="2">Tecnico</mat-checkbox>
+            <mat-checkbox class="margin checkbox-perfis" color="primary" formControlName="0">Admin</mat-checkbox>
+            <mat-checkbox class="margin checkbox-perfis" color="primary" formControlName="1">Cliente</mat-checkbox>
+            <mat-checkbox class="margin checkbox-perfis" color="primary" formControlName="2">Tecnico</mat-checkbox>
         </section>
         <mat-form-field appearance="fill">
             <mat-label>Nome</mat-label>
