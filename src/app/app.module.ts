@@ -8,6 +8,7 @@ import { HotToastModule } from '@ngneat/hot-toast';
 import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 import { interceptors } from './core/interceptors/auth/auth.interceptor';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
