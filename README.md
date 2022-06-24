@@ -3,6 +3,7 @@
 # Helpr
 Acesse o deploy: https://natycavaillier.github.io/helpr-frontend/auth
 <br>
+<br>
 Para fazer login no deploy utilize os seguintes dados:
 <br>
 email: clienteTeste@helpr.com
@@ -14,3 +15,6 @@ senha: cliente123
 ```git clone https://github.com/natycavaillier/helpr-frontend.git```
 2. Instale as dependências do projeto
 ```npm install```
+<br>
+Front-end: Angular
+Back-end: Spring
