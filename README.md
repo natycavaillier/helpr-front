@@ -15,6 +15,8 @@ senha: cliente123
 ```git clone https://github.com/natycavaillier/helpr-frontend.git```
 2. Instale as dependências do projeto
 ```npm install```
-<br>
+
+## Tecnologias utilizadas
 Front-end: Angular
+<br>
 Back-end: Spring
